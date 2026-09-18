@@ -10,7 +10,7 @@ occasionally jumping to a random page instead of following a link.
 Pages the surfer visits more often end up ranked higher.
 
 Mathematically, this comes down to finding the **dominant eigenvector**
-of the page-link matrix — a vector that keeps its direction under
+of the page-link matrix - a vector that keeps its direction under
 matrix multiplication, only getting scaled. This eigenvector represents
 the long-run, stable distribution of "surfer attention" across pages.
 
@@ -20,7 +20,7 @@ iteration**: repeatedly multiplying the matrix by a vector until
 the result stabilises. This scales far better to real-world systems
 with millions of pages.
 
-A **damping factor** is also applied — the probability of randomly
+A **damping factor** is also applied - the probability of randomly
 jumping to any page instead of following a link. This solves two
 issues that arise in real link graphs: closed loops (pages linking
 in a cycle with no exit) and disconnected clusters of pages that
