@@ -45,7 +45,7 @@ scores = page_rank(internet, d=0.9)
 ## Files
 
 - `pagerank.py` — core implementation (`generate_internet`, `page_rank`)
-- `PageRank.ipynb` — notebook walkthrough with the demo and plot
+- `PageRank1.ipynb` — notebook walkthrough with the demo and plot
 
 ## Background
 
